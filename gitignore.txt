@@ -1,0 +1,43 @@
+# macOS system files
+.DS_Store
+.ds_store
+*.DS_Store
+*.ds_store
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode settings
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Python virtualenv or pip-tools artifacts
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Ollama cache (if any local storage is used)
+.ollama/
+
+# Gradio temporary file uploads (if using Gradio file uploader)
+gradio_cached_examples/
